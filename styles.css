@@ -6,9 +6,20 @@
 	font-family: Arial, sans-serif;
 }
 
+:root {
+	--background-color: #F4EFEB;
+	--header-color: #2F4157;
+	--text-color: #285582;
+	--hover-color: #2980b9
+}
+
+body {
+	background-color: var(--background-color);
+}
+
 /* Header */
 .header {
-	background: #2c3e50;
+	background: var(--header-color);
 	color: white;
 	text-align: center;
 	padding: 50px 20px;
@@ -49,13 +60,13 @@
 
 .sidebar nav ul li a {
 	text-decoration: none;
-	color: #2c3e50;
+	color: var(--text-color);
 	font-weight: bold;
 	transition: 0.3s;
 }
 
 .sidebar nav ul li a:hover {
-	color: #2980b9;
+	color: var(--hover-color);
 }
 
 /* Case Study Content */
@@ -70,7 +81,7 @@
 
 .case-study h2 {
 	font-size: 2rem;
-	color: #2c3e50;
+	color: var(--text-color);
 	margin-bottom: 10px;
 }
 
