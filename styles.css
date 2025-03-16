@@ -25,6 +25,13 @@ h3 {
 	color: var(--hover-color);
 }
 
+img {
+	width: 100%;
+	height: auto;
+	margin: 1em;
+	align-self: center;
+}
+
 /* Header */
 .header {
 		background: var(--header-color);
