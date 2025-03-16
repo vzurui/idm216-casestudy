@@ -109,6 +109,14 @@ img {
 	line-height: 1.6;
 }
 
+.solution-images {
+	width: 75%;
+	height: auto;
+	display: flex;
+	justify-self: center;
+	margin: 2em 0;;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
 	.content {
